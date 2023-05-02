@@ -105,3 +105,6 @@ def main():
 # Annotate the documents and save them to a file
 annotate(documents, annotations)
 save_documents(documents, args.filename)
+
+if name == "main":
+    main()
